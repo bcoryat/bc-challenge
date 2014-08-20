@@ -1,0 +1,8 @@
+{
+  "run_list": [ "recipe[yum::yum]","recipe[mongodb::mongodb_repo]","mongodb::install"
+
+  ],
+  "automatic": {
+    "ipaddress": "cos4"
+  }
+}
